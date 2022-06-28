@@ -18,18 +18,11 @@ La funzione accetta come argomenti:
 
     neo_pixel(1)
     
-I valori 0 o 1 come interi per accendere alla massima luminosità come bianco o spengere il led.
+Il valore 1 per accendere alla massima luminosità come led bianco.
 
-    neo_pixel(0.25)
+    neo_pixel(0)
     
-Valori frac compresi fra 0 e 1 per accendere il led con colore bianco
-fra la minima potenza (0) e le massima (1)
-
-    neo_pixel(200,0.5)
-    
-Una tupla o lista di 2 valori con i primo compreso fra 0 e 255 rappresenta l'intensità del led bianco
-ed il secondo in secondi compreso fra 0 e 60 il tempo di accensione del led.
-Il ritardo è realizzato con 'sleep()', blocca l'esecuzione del codice per il tempo impostato.
+Il valore 0 per soengere il led.
 
     neo_pixel((100,225,40))
     
@@ -41,4 +34,4 @@ La funzione restituisce:
 
 0 se il comando è fallito. Verificare la confruità degli argomenti
 
-Il modulo test_neopixel.py permette di testare questa funzione.
+Il modulo test_neopixel.py permette di testare queste prestazioni.
